@@ -1,4 +1,4 @@
-Installing Drupal Using Composer Create-Project
+Using Drupal 8 Core As A Dependency
 ===
 
 Status
