@@ -1,0 +1,15 @@
+<phpunit
+         backupGlobals="true"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         cacheTokens="false"
+         colors="true"
+         verbose="false">
+
+<testsuites>
+  <testsuite name="My Test Suite">
+    <directory>tests/</directory>
+  </testsuite>
+</testsuites>
+
+</phpunit>

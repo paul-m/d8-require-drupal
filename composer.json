@@ -1,0 +1,17 @@
+{
+    "name": "mile23/d8-require-drupal",
+    "description": "A test of the usefulness of composer require in Drupal.",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Paul Mitchum",
+            "email": "paul@mile23.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~3"
+    }
+}
