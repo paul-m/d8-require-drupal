@@ -10,7 +10,7 @@ What?
 
 This repo is a test of whether you can use Composer's `require` command to install Drupal 8's core as a useful dependency.
 
-It uses github and travis-ci to build theh project, and then tries to run tests.
+It uses github and travis-ci to build the project, and then tries to run tests.
 
 We only have one PHPUnit-based test to start.
 
