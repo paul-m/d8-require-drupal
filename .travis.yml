@@ -2,13 +2,14 @@
 
 language: php
 php:
-  - 5.5
+  - 5.6
 
 before_script:
   # Set up the Github OAuth token.
   # Please change this if you fork this project.
   - "mkdir -p ~/.composer"
   - cp .travis.composer.config.json ~/.composer/config.json
+  - composer selfupdate
   # Install dependencies.
   - composer install --no-progress
   # Require drupal/core.
