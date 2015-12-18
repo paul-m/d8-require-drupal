@@ -3,7 +3,7 @@ Using Drupal 8 Core As A Dependency
 
 Status
 ---
-[![Build Status](https://travis-ci.org/paul-m/d8-require-drupal.svg?branch=master)](https://travis-ci.org/paul-m/d8-create-project)
+[![Build Status](https://travis-ci.org/paul-m/d8-require-drupal.svg?branch=master)](https://github.com/paul-m/d8-require-drupal)
 
 What?
 ---

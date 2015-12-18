@@ -10,6 +10,9 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {},
-    "require-dev": {}
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
 }
