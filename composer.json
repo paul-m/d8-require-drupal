@@ -13,6 +13,5 @@
     "require": {
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
     }
 }
