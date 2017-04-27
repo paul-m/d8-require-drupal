@@ -2,18 +2,12 @@
 
 language: php
 php:
-  - 5.5
+  - 7.0
 
 before_script:
-  # Set up the Github OAuth token.
-  # Please change this if you fork this project.
-  - "mkdir -p ~/.composer"
-  - cp .travis.composer.config.json ~/.composer/config.json
   - composer selfupdate
   # Require drupal/core.
-  - composer require drupal/core 8.0.*
-  # Add PHPUnit, since require-dev of requirements aren't loaded.
-  - composer require --dev phpunit/phpunit
+  - composer require drupal/core 8.3.*
 
 script:
   # Our PHPUnit tests simply try to use classes which exist in Drupal core.
