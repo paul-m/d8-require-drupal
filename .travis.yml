@@ -1,12 +1,16 @@
 # Travis-CI for Drupal 8.
 
 language: php
+
 php:
   - 7.0
 
+# Skip installation phase.
+install: true
+
 before_script:
   - composer selfupdate
-  # Require drupal/core.
+  # Require drupal/core. This should include phpunit.
   - composer require drupal/core 8.3.*
 
 script:
