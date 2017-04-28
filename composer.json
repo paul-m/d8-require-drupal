@@ -1,6 +1,6 @@
 {
     "name": "mile23/d8-require-drupal",
-    "description": "A test of the usefulness of composer require in Drupal.",
+    "description": "A test of using drupal/core as a dependency.",
     "license": "GPL-2.0+",
     "authors": [
         {
