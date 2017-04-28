@@ -1,18 +1,12 @@
-# Travis-CI for Drupal 8.
+# See composer.json for all the dependencies.
+
+sudo: false
 
 language: php
 
 php:
   - 7.0
 
-# Skip installation phase.
-install: true
-
-before_script:
-  - composer selfupdate
-  # Require drupal/core. This should include phpunit.
-  - composer require drupal/core 8.3.*
-
 script:
-  # Our PHPUnit tests simply try to use classes which exist in Drupal core.
+  # Our tests try to access the container from \Drupal.
   - ./vendor/bin/phpunit
