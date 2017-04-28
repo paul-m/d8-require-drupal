@@ -8,7 +8,7 @@ php:
   - 7.0
 
 install:
-  - composer install
+  - composer install --no-progress --no-suggest
 
 script:
   # Our tests try to access the container from \Drupal.
